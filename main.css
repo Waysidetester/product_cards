@@ -5,5 +5,76 @@
 }
 
 body {
-
+   
 }
+
+.contentContainer {
+    margin: 0 auto;
+    padding: 8px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+
+.productCard {
+    margin: 10px 0 10px 0;
+    padding: 3px 1%;
+    width: 30%;
+    height: 600px;
+    border: 1px solid lightblue;
+    box-shadow: 10px 5px 50px;
+}
+
+.productTitle {
+    text-align: center;
+}
+
+img {
+    height:275px;
+    width: 100%;
+    size: 100%;
+}
+
+
+.productText {
+    text-align: justify;
+}
+
+h6 {
+    margin: 2px -3.6% 2px -3.6%;
+    font-size: 16px;
+    padding: 2px 0 2px 3.6%;
+    background-color: #616161;
+    color: yellow;
+}
+
+.contentContainer footer {
+    font-size: 12px;
+}
+
+li {
+    list-style: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.ul_title {
+    font-size: 18px;
+}
+
+/* This moves the prices to the right of the card */
+ul {
+    display: block;
+    position: relative;
+}
+
+.cost {
+    display:inline-block;
+    position:absolute;
+    right:0;
+}
+
+/* it does this by making the parent relative and the position right on the child */
