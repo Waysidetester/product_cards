@@ -5,7 +5,8 @@
 }
 
 body {
-   
+   background-color: #f5f16e;
+   font-family: 'Corben', cursive;
 }
 
 h1 {
@@ -27,9 +28,11 @@ h1 {
     margin: 10px 0 10px 0;
     padding: 3px 1%;
     width: 30%;
-    height: 600px;
+    
     border: 1px solid lightblue;
-    box-shadow: 10px 5px 50px;
+    box-shadow: 2px 2px 50px #595f00;
+    background-color: #77ffcbf8;
+    font-size: 12px;
 }
 
 .productTitle {
@@ -51,8 +54,8 @@ h6 {
     margin: 2px -3.6% 2px -3.6%;
     font-size: 16px;
     padding: 2px 0 2px 3.6%;
-    background-color: #616161;
-    color: yellow;
+    background-color: #02b6a7;
+    color: #f5f16e;
 }
 
 .contentContainer footer {
@@ -62,7 +65,7 @@ h6 {
 li {
     list-style: none;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 10px;
 }
 
 .ul_title {
@@ -73,6 +76,7 @@ li {
 ul {
     display: block;
     position: relative;
+    font-size: 10px;
 }
 
 .cost {
@@ -82,3 +86,26 @@ ul {
 }
 
 /* it does this by making the parent relative and the position right on the child */
+
+.oosDiv {
+    position: relative;
+}
+
+.oos {
+    position: absolute;
+    
+}
+
+@media only screen and (max-width: 770px){
+    .productCard {
+        width: 100%;
+    }
+
+    h6 {
+        margin: 2px -1% 2px -1%;
+        font-size: 16px;
+        padding: 2px 0 2px 3.6%;
+        background-color: #02b6a7;
+        color: #f5f16e;
+    }
+}
